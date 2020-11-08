@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="post.css">
+    <title>Post</title>
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="dashboard.html">Dashboard</a>
+        <a href="post.html">Post</a>
+        <a href="page.html">Create Page</a>
+        <a href="addfriend.html">Add Friend</a>
+    </div>
+
+    <h2>Create Post</h2>
+
+    <form action="dashboard.html" method="post">
+        <div class="container">
+            <label for="poname"><b>Post Content</b></label>
+            <input type="text" id="post_content" placeholder="Type your message here..." name="poname" required>
+
+            <button type="submit" onclick="passValues()">SUBMIT</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
+
